@@ -1,0 +1,118 @@
+
+ body {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  width:100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+#message{
+  position: absolute;
+  margin: auto;
+  display: block;
+  top: 12%;
+  left: 42%;
+  color: green;
+  background-color: inherit;
+  font-size: 250%;
+}
+
+#container {
+  z-index: 1;
+  position: relative;
+  margin-top:10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  width: 80%;
+  height: 60%;
+  background-color: black;
+  border: 5px solid green;
+  border-radius: 10%;
+}
+
+.circleBase {
+  position:absolute;
+  border-radius: 50%;
+  z-index: 3;
+  behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+}
+
+.type1 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  background: green;
+}
+
+.type2 {
+  width: 70px;
+  height: 70px;
+  background: white;
+}
+
+.line {
+  position:absolute;
+  left: 50%;
+  height: 100%;
+  width: 0.5%;
+  background-color: white;
+}
+
+.netContainer{
+  position: absolute;
+  top:33.3%;
+  height:33.3%;
+  width: 0.8%;
+  background-color: white;
+}
+
+.rightNetContainer{
+  right: 0%;
+}
+
+.post {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background-color: green;
+}
+
+.rightPost{
+  right: 2%;
+}
+
+.secondPost{
+  top: 100%;
+}
+
+.scoreBox{
+  position:absolute;
+  width:5%;
+  height:7%;
+  border: 3px solid green;
+  bottom: 0%;
+  margin-left: 4%;
+  margin-bottom: 4%;
+}
+
+.scoreBox2{
+  right: 0%;
+  margin-right: 4%;
+}
+
+.scoreText{
+  position:relative;
+  display: block;
+  color:green;
+  background-color: inherit;
+  width: 20%;
+  height: 30%;
+  top:15%;
+  left: 24%;
+  font-size: 250%;
+}

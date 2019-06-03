@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>air hockey</title>
+      <link rel="stylesheet" href="css/style.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+  </head>
+
+  <body>
+    <div id="message"></div>
+    <div id="player1" class="circleBase type2" tabindex="-1"></div>
+    <div id="player2" class="circleBase type2" tabindex="-1"></div>
+    <div id="container">
+      <div id="leftNet" class="netContainer">
+        <div class="post"></div>
+        <div class="post secondPost"></div>
+      </div>
+
+      <div class="line"></div>
+      <div id="puck" class="circleBase type1"></div>
+      <div id="rightNet" class="netContainer rightNetContainer">
+        <div class="post rightPost"></div>
+        <div class="post secondPost rightPost"></div>
+      </div>
+    </div>
+
+    <div class="scoreBox">
+      <span id="score1" class="scoreText">10</span>
+    </div>
+    <div class="scoreBox scoreBox2">
+      <span id="score2" class="scoreText">10</span>
+    </div>
+  </body>
+
+  <script
+      src="https://code.jquery.com/jquery-2.2.4.js"
+      integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+      crossorigin="anonymous"></script>
+  <script src="js/functions.js"></script>
+</html>
